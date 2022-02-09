@@ -1,0 +1,48 @@
+nav	{
+	left: 0px;
+	top: 0px;
+	background: rgba(252, 252, 252, 0.9);
+}
+.menu li {
+	display: inline;
+	padding: 0 5%;
+
+}
+.menu {
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+	justify-content: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	padding: 0 20%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.list1 {
+	background-image: url("../img/Group.jpg");
+	background-size: auto;
+	background-position: 100% -100%;
+	background-repeat: no-repeat;
+}
+.text {
+	margin: 20% 0 60%;
+}
+.text h4 {
+	font-size: 80px;
+	font-style: Stapel;
+}
+.text button {
+	background-color: white;
+	border: solid 1px;
+}
+.list2 h4 {
+	width: 362px;
+	height: 81px;
+	left: 380px;
+	top: 1116px;
+	font-size: 70px;
+}
