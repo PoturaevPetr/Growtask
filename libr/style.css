@@ -35,14 +35,72 @@ a {
 	font-size: 80px;
 	font-style: Stapel;
 }
-.text button {
-	background-color: white;
+button {
+	background-color: rgba(255, 255, 255, 1);
 	border: solid 1px;
 }
-.list2 h4 {
+button:hover {
+	background-color: rgba(246, 55, 101, 1);
+	color: rgba(255, 255, 255, 1);
+	border: none;
+}
+button:active {
+	background-color:rgba(173, 14, 53, 1);
+	border: none;
+}
+.list2 h4, .list3 h4, .list5 h4 {
 	width: 362px;
 	height: 81px;
 	left: 380px;
 	top: 1116px;
 	font-size: 70px;
+}
+.row-flex {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.card {
+	background: rgba(250, 250, 250, 0.9) !important;
+	border-color:  rgba(250, 250, 250, 0.9) !important;
+	border-radius: 8px;
+	padding: 32px;
+}
+.cards {
+	padding: 0px;
+}
+
+.accord {
+    background-color: #eee;
+    color: #444;
+    transition: 0.4s;
+}
+.button {
+	background-image: url("engine/Button_top.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 70px;
+	padding: 10px;
+	border: none;
+}
+.button:hover {
+	background-image: url("engine/Button_focus_top.png");
+}
+.button:active {
+	background-image: url("engine/Button_click_top.png");
+}
+
+.button:after {
+	background-image: url("engine/Button_click_bottom.png");
+}
+.active, .accord:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
